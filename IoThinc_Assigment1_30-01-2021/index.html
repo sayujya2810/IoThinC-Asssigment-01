@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="Login.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="main-box">
+            <div class="container">
+                <h1> What's up User?</h1> 
+
+
+                <!-- I haven't Added The 'required' attribute to fields of the Login and Signup Input tags cause it would take time to switch and test the output -->
+            <h2>Login</h2>
+
+            <form class="logIn" action="branchSelection.html">
+                <div class="login-username">
+                    <label for="loginUsername">Username</label>
+                    <input name="loginUsername" type="text" placeholder="Username">
+                </div>
+                
+                <div class="login-password">
+                    <label for="loginPassword">Password</label>
+                    <input name="loginPassword" type="password" placeholder="Password">
+                </div>
+                <div class="TnC">
+                    <input type="checkbox" name="rememberMe">
+                    <label for="rememberMe">Always Remember</label>
+                </div>
+                <div class="loginButton">
+                    <button type="submit" >Login</button>
+                </div>
+            </form>
+
+            <hr>
+            <p id="hrlogin"> Dont have account? Create one !</p>
+
+            <h2>Sign Up</h2>
+            <form class="signUp" action="branchSelection.html">
+                <div class="F-L-name">
+                    <p>Tell us about you</p>
+                    <div class="signup-fname">
+                        
+                        <label for="signupFname">First Name</label>
+                        <input type="text" placeholder="First Name">
+                    </div>
+        
+                    <div class="signup-lname">
+        
+                        <label for="signupLname">Last Name</label>
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                </div> 
+
+                <div class="signup-email">
+                    <label for="signupEmail">Email</label>
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="signup-contact">
+                    <label for="signupContact">Contact</label>
+                    <input type="number" placeholder="Phone Number">
+                </div>
+                
+                <div class="signup-username">
+                    <label for="signupUsername">Username</label>
+                    <input name="signupUsername" type="text" placeholder="Username">
+                </div>
+                
+                <div class="signup-password">
+                    <label for="signupPassword">Password</label>
+                    <input name="signupPassword" type="password" placeholder="Password">
+                </div>
+
+                <div class="signup-confirm-password">
+                    <label for="signupConfirmPassword"> Confirm Password</label>
+                    <input name="signupConfirmPassword" type="password" placeholder="Password">
+                </div>
+
+                <div class="TnC">
+                    <input type="radio" name="termsAndCondition">
+                    <label for="termsAndCondition">Check the box to accept Terms and Conditions</label>
+                </div>
+        
+                <div class="submitButton">
+                    <button>Submit</button>
+                </div>
+            </form>
+            </div>
+        </div>
+
+    </body>
+</html>

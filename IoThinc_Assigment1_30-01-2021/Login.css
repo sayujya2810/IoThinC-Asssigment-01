@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(92, 92, 92);
+}
+
+.main-box{
+    /* remove bg color */
+    background-color: rgb(66, 72, 73);
+    margin: 0rem 6rem 0rem 6rem;
+    padding: 2rem 0rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center 3px;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 0px 10px 10px 10px rgb(61, 61, 61);
+}
+
+.main-box input{
+    font-size: 25px;
+    border-radius: 2rem;
+    padding: 5px;
+}
+
+.container div{
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+p{
+    font-size: 40px;
+}
+
+hr{
+    margin-top: 5px;
+}
+#hrlogin{
+    font-size: 20px;
+    margin-top: 7px;
+    font-style: italic;
+}
+
+.container button{
+    background-color: rgb(43, 43, 43);
+    color: rgb(221, 221, 221);
+    border-radius: 2rem;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 7px;
+}
+
+.TnC {
+    font-size: 25px;
+    font-style: italic;
+}
